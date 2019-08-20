@@ -14,6 +14,12 @@
 ## version string format
 `MAJOR.MINOR.BUILD.REVISION`
 
+## install
+please execute command below.
+```sh
+pip install vup
+```
+
 ## usage
 1. run `init` sub command to initialize project
 1. run `generate` sub command to generate header file
