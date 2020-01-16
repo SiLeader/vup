@@ -36,7 +36,8 @@ def init(args):
             setting.Type.Year: datetime.date.today().year,
             setting.Type.Month: datetime.date.today().month,
             setting.Type.Day: datetime.date.today().day,
-            setting.Type.Days: diff.days
+            setting.Type.Days: diff.days,
+            setting.Type.Null: None,
         }[f.type]
 
     pref = setting.Setting(**{

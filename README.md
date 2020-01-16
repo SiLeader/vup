@@ -45,7 +45,7 @@ pip install vup
 | `none` | not use this field |
 
 ### `generate` sub command
-+ `--language` or `-x`: target language (C++ or C)
++ `--language` or `-x`: target language (C++, C, or Python)
 + `--output` or `-o`: output basename
 + `--pre-update`: update before generate
 + `--post-update`: update after generate

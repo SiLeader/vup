@@ -12,7 +12,8 @@ def main():
 
     gen = sub.add_parser('generate', help='generate version file')
     gen.set_defaults(handler=generate_handler)
-    gen.add_argument('--language', '-x', choices=('c++', 'c'), help='output language (default: c++)', default='c++')
+    gen.add_argument('--language', '-x', choices=('c++', 'c', 'python'),
+                     help='output language (default: c++)', default='c++')
     gen.add_argument('--output', '-o', help='output file base name (default: vup)', default='vup')
     gen.add_argument('--pre-update', '--pre', action='store_true', help='update before generate')
     gen.add_argument('--post-update', '--post', action='store_true', help='update after generate')

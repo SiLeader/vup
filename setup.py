@@ -5,7 +5,7 @@ with open('README.md') as fp:
 
 setuptools.setup(
     name='vup',
-    version='1.0.1',
+    version='1.1.4',
     entry_points={
         'console_scripts': [
             'vup = vup.main:main'
